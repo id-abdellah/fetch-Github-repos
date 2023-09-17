@@ -35,7 +35,7 @@ btn.addEventListener("click", () => {
                             <div class="count">${ResponseData[i].stargazers_count}</div>
                         </div>
                         <div class="visit">
-                            <a href="${ResponseData[i].html_url}">visit</a>
+                            <a target="_blank" href="${ResponseData[i].html_url}">visit</a>
                         </div>
                     </div>
                 </div
