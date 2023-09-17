@@ -20,7 +20,7 @@ async function getData(userLogin) {
 btn.addEventListener("click", () => {
     let userInputValue = userInput.value;
     if (userInputValue == "") return;
-
+    fetchedReposPlace.innerHTML = "";
     getData(userInputValue).then(
         (ResponseData) => {
             for (let i = 0; i < ResponseData.length; i++) {
